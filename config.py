@@ -1,134 +1,71 @@
+# =============================================================================
+# CONFIGURAÇÕES DO BOT DE GRID TRADING - BACKPACK EXCHANGE
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Par de Trading - FUTUROS PERPÉTUOS
+# -----------------------------------------------------------------------------
+SYMBOL = "BTC_USDC_PERP"  # Pares: SOL_USDC_PERP, BTC_USDC_PERP, ETH_USDC_PERP
+
+# -----------------------------------------------------------------------------
+# Configurações do Grid (AUTOMÁTICO baseado no preço de mercado)
+# -----------------------------------------------------------------------------
+# O bot busca o preço atual automaticamente e calcula o range
+# Range: ±10% do preço atual (ex: se SOL = $141, grid de $127 a $155)
+
+MODE = "LONG"  # LONG, SHORT ou NEUTRAL
+PRICE_DECIMAL = 2  # Casas decimais do preço
+NUMBER_OF_GRIDS = 20  # Número de níveis do grid
+QUANTITY_PER_GRID = 0.0001  # Quantidade por nível
+
+# Explicação dos Modos:
+# NEUTRAL: 50% compra + 50% venda (mercado lateral)
+# LONG: 70% compra + 30% venda (expectativa de alta)
+# SHORT: 30% compra + 70% venda (expectativa de baixa)
+
+# -----------------------------------------------------------------------------
+# Configurações Avançadas
+# -----------------------------------------------------------------------------
+UPDATE_INTERVAL = 30  # Intervalo de verificação (segundos)
+CANCEL_ON_EXIT = True  # Cancelar ordens ao sair
+LOG_LEVEL = "INFO"  # DEBUG, INFO, WARNING, ERROR
+MAX_RETRIES = 3
+RETRY_DELAY = 2
+
+# =============================================================================
+# EXEMPLOS PRÉ-CONFIGURADOS
+# =============================================================================
+
+# SOL Perpétuo (padrão)
 """
-Arquivo de Configuração - Grid Trading Bot
-Ajuste os parâmetros abaixo para customizar o comportamento do bot
+SYMBOL = "SOL_USDC_PERP"
+NUMBER_OF_GRIDS = 100
+QUANTITY_PER_GRID = 0.07
+PRICE_DECIMAL = 2
 """
 
-# ============================================
-# CONFIGURAÇÕES DO GRID TRADING
-# ============================================
+# BTC Perpétuo
+"""
+SYMBOL = "BTC_USDC_PERP"
+NUMBER_OF_GRIDS = 100
+QUANTITY_PER_GRID = 0.001
+PRICE_DECIMAL = 2
+"""
 
-# Par de trading (símbolo do futuro perpétuo)
-# Exemplos: "BTC_USDT", "ETH_USDT", "SOL_USDT"
-# IMPORTANTE: Use underscore (_) não hífem (-)
-SYMBOL = "BTC_USDT"
+# ETH Perpétuo
+"""
+SYMBOL = "ETH_USDC_PERP"
+NUMBER_OF_GRIDS = 100
+QUANTITY_PER_GRID = 0.01
+PRICE_DECIMAL = 2
+"""
 
-# Preço base do grid (ponto central)
-# O bot criará ordens acima e abaixo deste preço
-BASE_PRICE = 50000
-
-# Intervalo de preço total (amplitude do grid)
-# Exemplo: Se BASE_PRICE=50000 e PRICE_RANGE=2000
-# As ordens serão criadas entre 49000 e 51000
-PRICE_RANGE = 1000
-
-# Número de níveis de grid (quantidade de ordens acima e abaixo do preço base)
-# Exemplo: Se GRID_LEVELS=5, terá 5 ordens de compra e 5 de venda (total 10)
-GRID_LEVELS = 5
-
-# Tamanho de cada ordem (quantidade de ativos)
-# Exemplo: 0.01 BTC por ordem
-ORDER_SIZE = 0.01
-
-# ============================================
-# MODO DE OPERAÇÃO
-# ============================================
-
-# LONG: Apenas compra abaixo e vende acima (para mercados em alta)
-# SHORT: Apenas venda acima e compra abaixo (para mercados em baixa)
-# NEUTRAL: Compra e venda em ambos os lados (para mercados laterais)
-MODE = "NEUTRAL"  # Opções: "LONG", "SHORT", "NEUTRAL"
-
-# ============================================
-# TIPO DE GRID
-# ============================================
-
-# GEOMETRIC: Diferença percentual fixa entre níveis (recomendado)
-# ARITHMETIC: Diferença de preço fixa entre níveis
-GRID_TYPE = "GEOMETRIC"  # Opções: "GEOMETRIC", "ARITHMETIC"
-
-# Percentual de diferença entre níveis (para GEOMETRIC)
-# Exemplo: 2 = 2% de diferença entre cada nível
-GEOMETRIC_PERCENTAGE = 2
-
-# Diferença de preço fixa entre níveis (para ARITHMETIC)
-# Exemplo: 100 = $100 de diferença entre cada nível
-ARITHMETIC_STEP = 100
-
-# ============================================
-# COMPORTAMENTO DO BOT
-# ============================================
-
-# Intervalo de atualização do bot (em segundos)
-# O bot verificará o status das ordens a cada X segundos
-UPDATE_INTERVAL = 30
-
-# Cancelar todas as ordens antes de iniciar?
-# True: Cancela todas as ordens existentes e começa do zero
-# False: Continua com as ordens existentes
-CANCEL_EXISTING_ORDERS = True
-
-# Criar novas ordens automaticamente quando uma for preenchida?
-# True: Cria novas ordens para manter o grid completo
-# False: Apenas monitora as ordens existentes
-AUTO_REORDER = True
-
-# ============================================
-# GERENCIAMENTO DE RISCO (OPCIONAL)
-# ============================================
-
-# Lucro alvo total (em USDT) - o bot parará quando atingir este lucro
-# Deixe como None para desabilitar
-TARGET_PROFIT = None  # Exemplo: 1000 (para parar ao ganhar $1000)
-
-# Perda máxima permitida (em USDT) - o bot parará se perder mais que isto
-# Deixe como None para desabilitar
-MAX_LOSS = None  # Exemplo: 500 (para parar ao perder $500)
-
-# ============================================
-# LOGGING E DEBUG
-# ============================================
-
-# Nível de log: DEBUG, INFO, WARNING, ERROR
-LOG_LEVEL = "INFO"
-
-# Salvar logs em arquivo?
-SAVE_LOGS = True
-
-# Nome do arquivo de log
-LOG_FILE = "grid_bot.log"
-
-# Mostrar detalhes de cada ordem no console?
-VERBOSE = True
-
-# ============================================
-# EXEMPLO DE CONFIGURAÇÕES PRÉ-DEFINIDAS
-# ============================================
-
-# Você pode criar diferentes configurações e trocar entre elas
-# Descomente a que quiser usar
-
-# --- Configuração Agressiva (muitos níveis, pequenas ordens) ---
-# GRID_LEVELS = 20
-# ORDER_SIZE = 0.001
-# PRICE_RANGE = 5000
-# GEOMETRIC_PERCENTAGE = 1
-
-# --- Configuração Conservadora (poucos níveis, ordens maiores) ---
-# GRID_LEVELS = 3
-# ORDER_SIZE = 0.1
-# PRICE_RANGE = 1000
-# GEOMETRIC_PERCENTAGE = 5
-
-# --- Configuração para ETH ---
-# SYMBOL = "ETH_USDT"
-# BASE_PRICE = 3000
-# PRICE_RANGE = 300
-# ORDER_SIZE = 0.1
-# GRID_LEVELS = 5
-
-# --- Configuração para SOL ---
-# SYMBOL = "SOL_USDT"
-# BASE_PRICE = 200
-# PRICE_RANGE = 50
-# ORDER_SIZE = 1
-# GRID_LEVELS = 5
+# =============================================================================
+# NOTAS IMPORTANTES
+# =============================================================================
+# 
+# - O bot calcula automaticamente o range como ±10% do preço de mercado
+# - Capital necessário: ~$435 USDC para SOL com essas configurações
+# - Reduza NUMBER_OF_GRIDS ou QUANTITY_PER_GRID se tiver pouco capital
+# - Para testar: use NUMBER_OF_GRIDS = 10 e QUANTITY_PER_GRID = 0.01
+#

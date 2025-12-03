@@ -1,39 +1,38 @@
-# Grid Trading Bot - Versão Simples
+# 🤖 Bot de Grid Trading para Backpack Exchange
 
-Um bot de grid trading simples e prático para rodar localmente na sua máquina. Perfeito para automatizar suas estratégias de trading em futuros perpétuos na **Backpack Exchange**.
+Bot automatizado de grid trading para a Backpack Exchange, desenvolvido em Python. Permite executar estratégias de grid trading com configuração simples e fácil.
 
-## 🚀 Características
+## ✨ Funcionalidades
 
-- **Grid Trading Automático**: Cria ordens em múltiplos níveis de preço
-- **Três Modos**: LONG (alta), SHORT (baixa), NEUTRAL (lateral)
-- **Dois Tipos de Grid**: Geométrico (recomendado) e Aritmético
-- **Loop Contínuo**: Monitora e atualiza ordens automaticamente
-- **Logs Detalhados**: Acompanhe tudo que o bot está fazendo
-- **Configuração Simples**: Tudo em arquivos Python fáceis de editar
+- ✅ **Grid Trading Automático**: Cria ordens em múltiplos níveis de preço
+- 📊 **Três Modos**: LONG (alta), SHORT (baixa), NEUTRAL (lateral)
+- 📈 **Dois Tipos de Grid**: Geométrico (recomendado) e Aritmético
+- 🔄 **Loop Contínuo**: Monitora e atualiza ordens automaticamente
+- 📝 **Logs Detalhados**: Acompanhe tudo que o bot está fazendo
+- ⚙️ **Configuração Simples**: Tudo em arquivos Python fáceis de editar
 
 ## 📋 Pré-requisitos
 
-- Python 3.8+
+- Python 3.8 ou superior
 - pip (gerenciador de pacotes Python)
 - Conta na Backpack Exchange com chaves de API
 
-## 🔧 Instalação
+## 🚀 Instalação
 
-### 1. Clonar ou baixar o projeto
+### 1. Clone o repositório
 
 ```bash
-cd grid_bot_simple
+git clone https://github.com/arturnery/BotGrid.git
+cd BotGrid
 ```
 
-### 2. Instalar dependências
+### 2. Instale as dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## ⚙️ Configuração
-
-### 1. Configurar Autenticação (`auth.py`)
+### 3. Configure suas credenciais
 
 Abra o arquivo `auth.py` e adicione suas credenciais da Backpack:
 
@@ -43,12 +42,14 @@ BACKPACK_PRIVATE_KEY = "sua_chave_privada_aqui"
 ```
 
 **Como obter as chaves:**
-1. Acesse https://backpack.exchange
+1. Acesse [https://backpack.exchange](https://backpack.exchange)
 2. Vá para Configurações → API
 3. Clique em "Criar Nova Chave de API"
 4. Copie a chave pública e privada
 
-### 2. Configurar Parâmetros do Bot (`config.py`)
+⚠️ **IMPORTANTE**: Nunca compartilhe suas chaves privadas!
+
+### 4. Configure os parâmetros
 
 Abra o arquivo `config.py` e ajuste os parâmetros:
 
@@ -78,7 +79,7 @@ GRID_TYPE = "GEOMETRIC"
 UPDATE_INTERVAL = 30
 ```
 
-## 🏃 Executando o Bot
+## ▶️ Como Usar
 
 ### Iniciar o bot
 
@@ -90,9 +91,9 @@ python bot.py
 
 Pressione `Ctrl+C` no terminal
 
-## 📊 Exemplo de Configuração
+## 📊 Exemplos de Configuração
 
-### Para Bitcoin (BTC_USDT)
+### Bitcoin (BTC)
 
 ```python
 SYMBOL = "BTC_USDT"
@@ -105,7 +106,7 @@ GRID_TYPE = "GEOMETRIC"
 GEOMETRIC_PERCENTAGE = 2
 ```
 
-### Para Ethereum (ETH_USDT)
+### Ethereum (ETH)
 
 ```python
 SYMBOL = "ETH_USDT"
@@ -118,7 +119,7 @@ GRID_TYPE = "GEOMETRIC"
 GEOMETRIC_PERCENTAGE = 2
 ```
 
-### Para Solana (SOL_USDT)
+### Solana (SOL)
 
 ```python
 SYMBOL = "SOL_USDT"
@@ -133,52 +134,59 @@ GEOMETRIC_PERCENTAGE = 2
 
 ## 🎯 Modos de Operação
 
-### NEUTRAL (Recomendado para mercados laterais)
+### NEUTRAL (Neutro)
+- Preço sobe: ↑ vende, lucra
+- Preço desce: ↓ compra, lucra
+- Preço lateral: ↔ compra e vende, lucra
 
-```
-Preço sobe:     ↑ vende, lucra
-Preço desce:    ↓ compra, lucra
-Preço lateral:  ↔ compra e vende, lucra
-```
+**Melhor para**: Mercados laterais com alta volatilidade
 
-### LONG (Para mercados em alta)
+### LONG (Comprado)
+- Preço sobe: ↑ vende, lucra
+- Preço desce: ↓ compra, lucra (menos ordens)
 
-```
-Preço sobe:     ↑ vende, lucra
-Preço desce:    ↓ compra, lucra (menos ordens)
-```
+**Melhor para**: Tendências de alta
 
-### SHORT (Para mercados em baixa)
+### SHORT (Vendido)
+- Preço sobe: ↑ vende, lucra (menos ordens)
+- Preço desce: ↓ compra, lucra
 
-```
-Preço sobe:     ↑ vende, lucra (menos ordens)
-Preço desce:    ↓ compra, lucra
-```
+**Melhor para**: Tendências de baixa
 
-## 📈 Tipos de Grid
+## 📐 Tipos de Grid
 
-### GEOMETRIC (Recomendado)
+### GEOMETRIC (Geométrico) - Recomendado
 
 Usa percentual fixo entre níveis. Melhor para diferentes volatilidades.
 
-```
-Exemplo com 2% de diferença:
-Nível 1: 50000 * 0.98 = 49000 (compra)
-Nível 2: 50000 * 0.96 = 48000 (compra)
-Nível 3: 50000 * 1.02 = 51000 (venda)
-Nível 4: 50000 * 1.04 = 52000 (venda)
-```
+**Exemplo com 2% de diferença:**
+- Nível 1: 50000 * 0.98 = 49000 (compra)
+- Nível 2: 50000 * 0.96 = 48000 (compra)
+- Nível 3: 50000 * 1.02 = 51000 (venda)
+- Nível 4: 50000 * 1.04 = 52000 (venda)
 
-### ARITHMETIC
+### ARITHMETIC (Aritmético)
 
 Usa diferença de preço fixa entre níveis. Mais simples.
 
+**Exemplo com $100 de diferença:**
+- Nível 1: 50000 - 100 = 49900 (compra)
+- Nível 2: 50000 - 200 = 49800 (compra)
+- Nível 3: 50000 + 100 = 50100 (venda)
+- Nível 4: 50000 + 200 = 50200 (venda)
+
+## 📁 Estrutura do Projeto
+
 ```
-Exemplo com $100 de diferença:
-Nível 1: 50000 - 100 = 49900 (compra)
-Nível 2: 50000 - 200 = 49800 (compra)
-Nível 3: 50000 + 100 = 50100 (venda)
-Nível 4: 50000 + 200 = 50200 (venda)
+BotGrid/
+├── bot.py              # Script principal do bot
+├── auth.py             # Autenticação com a API
+├── config.py           # Configurações do bot
+├── grid.py             # Lógica da estratégia de grid
+├── orders.py           # Gerenciamento de ordens
+├── requirements.txt    # Dependências Python
+├── grid_bot.log       # Arquivo de logs (gerado automaticamente)
+└── README.md          # Este arquivo
 ```
 
 ## 📝 Logs
@@ -191,18 +199,18 @@ Você pode ajustar o nível de log em `config.py`:
 LOG_LEVEL = "INFO"  # Opções: DEBUG, INFO, WARNING, ERROR
 ```
 
-## ⚠️ Segurança
+## 🔐 Segurança
 
-- **Nunca compartilhe suas chaves privadas** com ninguém
-- **Não faça commit** do arquivo `auth.py` em repositórios públicos
-- **Use testnet** para testar antes de usar fundos reais
-- **Comece pequeno** com valores baixos
+- ⚠️ Nunca compartilhe suas chaves privadas com ninguém
+- 🚫 Não faça commit do arquivo `auth.py` em repositórios públicos
+- 🧪 Use testnet para testar antes de usar fundos reais
+- 💰 Comece pequeno com valores baixos
 
-## 🧪 Testnet
+### Usar Testnet
 
 Para testar sem risco, use a testnet:
 
-1. Acesse https://testnet.backpack.exchange
+1. Acesse [https://testnet.backpack.exchange](https://testnet.backpack.exchange)
 2. Crie uma conta de teste
 3. Gere chaves de API para testnet
 4. Em `auth.py`, mude:
@@ -211,36 +219,51 @@ Para testar sem risco, use a testnet:
 BACKPACK_API_URL = "https://api.testnet.backpack.exchange"
 ```
 
-## 🐛 Troubleshooting
+## ❓ Problemas Comuns
 
-### Erro: "Chave pública não foi configurada"
+### "Configure suas chaves de API"
 
 **Solução**: Abra `auth.py` e adicione suas credenciais
 
-### Erro: "Insufficient balance"
+### "Insufficient balance"
 
 **Solução**: Você não tem saldo suficiente. Deposite mais fundos ou reduza o tamanho das ordens.
 
-### Erro### Invalid symbol
+### "Invalid symbol"
 
-**Solução**: Verifique se o símbolo está correto (ex: BTC_USDT, ETH_USDT). Use underscore (_) não hífem (-)
+**Solução**: Verifique se o símbolo está correto (ex: BTC_USDT, ETH_USDT). Use underscore (_) não hífen (-)
 
-### Bot não cria ordens
+### "Order placement failed"
 
 **Solução**:
-1. Verifique se as credenciais estão corretas
-2. Verifique se tem saldo disponível
-3. Verifique os logs para mais detalhes
+- Verifique se as credenciais estão corretas
+- Verifique se tem saldo disponível
+- Verifique os logs para mais detalhes
 
-## 📞 Suporte
+## 📚 Recursos
 
 Para mais informações sobre a API da Backpack:
-- https://docs.backpack.exchange
-- https://support.backpack.exchange
+- [Documentação oficial da API](https://docs.backpack.exchange/)
 
-## ⚖️ Disclaimer
+## ⚠️ Disclaimer
 
-Este bot é fornecido "como está" sem garantias. O trading de criptomoedas envolve risco significativo. Sempre teste em testnet antes de usar com fundos reais.
+Este bot é fornecido "como está" sem garantias. O trading de criptomoedas envolve risco significativo de perda. Sempre:
+
+- Faça sua própria pesquisa (DYOR)
+- Teste em testnet primeiro
+- Comece com valores pequenos
+- Nunca invista mais do que pode perder
+
+## 📄 Licença
+
+Este projeto é open source e está disponível para uso livre.
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para:
+- Reportar bugs
+- Sugerir novas funcionalidades
+- Enviar pull requests
 
 ---
 

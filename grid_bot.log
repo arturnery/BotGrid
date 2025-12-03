@@ -212,3 +212,717 @@
 ⛔ Bot interrompido pelo usuário
 2025-12-03 15:49:28,882 - __main__ - INFO - 🛑 Encerrando bot...
 2025-12-03 15:49:28,882 - __main__ - INFO - ======================================================================
+2025-12-03 16:32:49,191 - INFO - ==================================================
+2025-12-03 16:32:49,191 - INFO - BOT DE GRID TRADING INICIADO
+2025-12-03 16:32:49,191 - INFO - ==================================================
+2025-12-03 16:32:49,191 - INFO - Par: BTC_USDT
+2025-12-03 16:32:49,191 - INFO - Preço Base: 50000
+2025-12-03 16:32:49,191 - INFO - Range: 1000
+2025-12-03 16:32:49,191 - INFO - Níveis: 5
+2025-12-03 16:32:49,191 - INFO - Tamanho por Ordem: 0.01
+2025-12-03 16:32:49,191 - INFO - Modo: NEUTRAL
+2025-12-03 16:32:49,191 - INFO - Tipo de Grid: GEOMETRIC
+2025-12-03 16:32:49,191 - INFO - ==================================================
+2025-12-03 16:32:49,582 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/capital
+2025-12-03 16:32:49,583 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Invalid X-Signature header"}
+2025-12-03 16:32:49,583 - ERROR - Falha ao conectar: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/capital
+2025-12-03 16:32:49,584 - ERROR - Falha ao conectar com a API. Verifique suas credenciais.
+2025-12-03 16:34:41,620 - INFO - ==================================================
+2025-12-03 16:34:41,620 - INFO - BOT DE GRID TRADING INICIADO
+2025-12-03 16:34:41,620 - INFO - ==================================================
+2025-12-03 16:34:41,620 - INFO - Par: BTC_USDT
+2025-12-03 16:34:41,620 - INFO - Preço Base: 50000
+2025-12-03 16:34:41,620 - INFO - Range: 1000
+2025-12-03 16:34:41,620 - INFO - Níveis: 5
+2025-12-03 16:34:41,620 - INFO - Tamanho por Ordem: 0.01
+2025-12-03 16:34:41,620 - INFO - Modo: NEUTRAL
+2025-12-03 16:34:41,620 - INFO - Tipo de Grid: GEOMETRIC
+2025-12-03 16:34:41,620 - INFO - ==================================================
+2025-12-03 16:34:41,620 - INFO - Testando conexão com a API...
+2025-12-03 16:34:42,007 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/capital
+2025-12-03 16:34:42,007 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Invalid X-Signature header"}
+2025-12-03 16:34:42,007 - ERROR - ❌ Falha ao conectar: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/capital
+2025-12-03 16:34:42,009 - ERROR - Falha ao conectar com a API. Verifique suas credenciais.
+2025-12-03 16:36:48,685 - INFO - ✅ Chave privada ED25519 carregada com sucesso
+2025-12-03 16:36:48,685 - INFO - ==================================================
+2025-12-03 16:36:48,685 - INFO - BOT DE GRID TRADING INICIADO
+2025-12-03 16:36:48,685 - INFO - ==================================================
+2025-12-03 16:36:48,685 - INFO - Par: BTC_USDT
+2025-12-03 16:36:48,685 - INFO - Preço Base: 50000
+2025-12-03 16:36:48,685 - INFO - Range: 1000
+2025-12-03 16:36:48,685 - INFO - Níveis: 5
+2025-12-03 16:36:48,685 - INFO - Tamanho por Ordem: 0.01
+2025-12-03 16:36:48,685 - INFO - Modo: NEUTRAL
+2025-12-03 16:36:48,685 - INFO - Tipo de Grid: GEOMETRIC
+2025-12-03 16:36:48,685 - INFO - ==================================================
+2025-12-03 16:36:48,685 - INFO - Testando conexão com a API...
+2025-12-03 16:36:49,128 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/capital
+2025-12-03 16:36:49,129 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Invalid signature"}
+2025-12-03 16:36:49,129 - ERROR - ❌ Falha ao conectar: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/capital
+2025-12-03 16:36:49,130 - ERROR - Falha ao conectar com a API. Verifique suas credenciais.
+2025-12-03 16:39:52,850 - INFO - ✅ Chave privada ED25519 carregada com sucesso
+2025-12-03 16:39:52,850 - INFO - ==================================================
+2025-12-03 16:39:52,850 - INFO - BOT DE GRID TRADING INICIADO
+2025-12-03 16:39:52,850 - INFO - ==================================================
+2025-12-03 16:39:52,850 - INFO - Par: BTC_USDT
+2025-12-03 16:39:52,850 - INFO - Preço Base: 50000
+2025-12-03 16:39:52,850 - INFO - Range: 1000
+2025-12-03 16:39:52,850 - INFO - Níveis: 5
+2025-12-03 16:39:52,850 - INFO - Tamanho por Ordem: 0.01
+2025-12-03 16:39:52,851 - INFO - Modo: NEUTRAL
+2025-12-03 16:39:52,851 - INFO - Tipo de Grid: GEOMETRIC
+2025-12-03 16:39:52,851 - INFO - ==================================================
+2025-12-03 16:39:52,851 - INFO - Testando conexão com a API...
+2025-12-03 16:39:53,251 - INFO - ✅ Conexão com API estabelecida com sucesso!
+2025-12-03 16:39:53,252 - INFO - Saldo disponível: {'BTC': {'available': '0', 'locked': '0', 'staked': '0'}, 'ES': {'available': '2.1695', 'locked': '0', 'staked': '0'}, 'ETH': {'available': '0', 'locked': '0', 'staked': '0'}, 'FRAG': {'available': '3.00918', 'locked': '0', 'staked': '0'}, 'JUP': {'available': '0.016173', 'locked': '0', 'staked': '0'}, 'KMNO': {'available': '0.041346', 'locked': '0', 'staked': '0'}, 'PIPE': {'available': '0', 'locked': '0', 'staked': '0'}, 'POINTS': {'available': '2242.2', 'locked': '0', 'staked': '0'}, 'PRCL': {'available': '0', 'locked': '0', 'staked': '0'}, 'PUMP': {'available': '0', 'locked': '0', 'staked': '0'}, 'SEI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SOL': {'available': '0', 'locked': '0', 'staked': '0'}, 'SUI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SWTCH': {'available': '0', 'locked': '0', 'staked': '0'}, 'USDC': {'available': '0.0000000000835', 'locked': '0', 'staked': '0'}, 'USDT': {'available': '0', 'locked': '0', 'staked': '0'}, 'W': {'available': '0', 'locked': '0', 'staked': '0'}, 'WEN': {'available': '534.6976', 'locked': '0', 'staked': '0'}, 'WIF': {'available': '0', 'locked': '0', 'staked': '0'}, 'XPL': {'available': '0', 'locked': '0', 'staked': '0'}}
+2025-12-03 16:39:53,252 - INFO - Cancelando ordens antigas...
+2025-12-03 16:39:53,613 - INFO - Nenhuma ordem aberta para cancelar
+2025-12-03 16:39:53,614 - INFO - Calculando níveis do grid...
+2025-12-03 16:39:53,614 - INFO - Tipo: GEOMETRIC
+2025-12-03 16:39:53,614 - INFO - Modo: NEUTRAL
+2025-12-03 16:39:53,614 - INFO - Grid geométrico calculado: 10 níveis
+2025-12-03 16:39:53,614 - INFO - ==================================================
+2025-12-03 16:39:53,615 - INFO - RESUMO DO GRID
+2025-12-03 16:39:53,615 - INFO - ==================================================
+2025-12-03 16:39:53,615 - INFO - Total de ordens: 10
+2025-12-03 16:39:53,615 - INFO - Ordens de compra: 5
+2025-12-03 16:39:53,615 - INFO - Ordens de venda: 5
+2025-12-03 16:39:53,615 - INFO - Menor preço de compra: $45196.04
+2025-12-03 16:39:53,615 - INFO - Maior preço de compra: $49000.0
+2025-12-03 16:39:53,615 - INFO - Menor preço de venda: $51000.0
+2025-12-03 16:39:53,616 - INFO - Maior preço de venda: $55204.04
+2025-12-03 16:39:53,616 - INFO - ==================================================
+2025-12-03 16:39:53,616 - INFO - Grid calculado com 10 níveis
+2025-12-03 16:39:53,616 - INFO - Colocando ordens iniciais...
+2025-12-03 16:39:53,976 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:39:53,976 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:39:53,976 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:39:56,420 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:39:56,420 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:39:56,420 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:39:58,788 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:39:58,788 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:39:58,788 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:39:58,788 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:39:59,698 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:39:59,698 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:39:59,699 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:02,153 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:02,154 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:40:02,154 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:05,124 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:05,124 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:40:05,124 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:05,124 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:40:06,016 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:06,016 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:40:06,016 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:08,503 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:08,503 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:40:08,503 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:11,074 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:11,074 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:40:11,074 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:11,074 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:40:11,947 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:11,948 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:40:11,948 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:14,346 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:14,346 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:40:14,346 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:16,798 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:16,798 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:40:16,798 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:16,799 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:40:17,719 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:17,719 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:40:17,720 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:20,178 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:20,178 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:40:20,179 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:22,583 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:22,583 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:40:22,583 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:22,583 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:40:23,556 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:23,556 - ERROR - Resposta: {"code":"RESOURCE_NOT_FOUND","message":"Unable to find market metadata"}
+2025-12-03 16:40:23,557 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:40:24,004 - INFO - 
+Bot interrompido pelo usuário
+2025-12-03 16:40:24,004 - INFO - Parando o bot...
+2025-12-03 16:40:24,004 - INFO - Cancelando todas as ordens...
+2025-12-03 16:40:24,375 - INFO - Nenhuma ordem aberta para cancelar
+2025-12-03 16:40:24,375 - INFO - Bot parado com sucesso!
+2025-12-03 16:44:06,065 - INFO - ✅ Chave privada ED25519 carregada com sucesso
+2025-12-03 16:44:06,065 - INFO - ==================================================
+2025-12-03 16:44:06,065 - INFO - BOT DE GRID TRADING INICIADO
+2025-12-03 16:44:06,065 - INFO - ==================================================
+2025-12-03 16:44:06,065 - INFO - Par: SOL_USDC
+2025-12-03 16:44:06,065 - INFO - Preço Base: 200.0
+2025-12-03 16:44:06,065 - INFO - Range: 40
+2025-12-03 16:44:06,065 - INFO - Níveis: 5
+2025-12-03 16:44:06,065 - INFO - Tamanho por Ordem: 0.5
+2025-12-03 16:44:06,065 - INFO - Modo: NEUTRAL
+2025-12-03 16:44:06,065 - INFO - Tipo de Grid: GEOMETRIC
+2025-12-03 16:44:06,065 - INFO - ==================================================
+2025-12-03 16:44:06,065 - INFO - Testando conexão com a API...
+2025-12-03 16:44:06,486 - INFO - ✅ Conexão com API estabelecida com sucesso!
+2025-12-03 16:44:06,487 - INFO - Saldo disponível: {'BTC': {'available': '0', 'locked': '0', 'staked': '0'}, 'ES': {'available': '2.1695', 'locked': '0', 'staked': '0'}, 'ETH': {'available': '0', 'locked': '0', 'staked': '0'}, 'FRAG': {'available': '3.00918', 'locked': '0', 'staked': '0'}, 'JUP': {'available': '0.016173', 'locked': '0', 'staked': '0'}, 'KMNO': {'available': '0.041346', 'locked': '0', 'staked': '0'}, 'PIPE': {'available': '0', 'locked': '0', 'staked': '0'}, 'POINTS': {'available': '2242.2', 'locked': '0', 'staked': '0'}, 'PRCL': {'available': '0', 'locked': '0', 'staked': '0'}, 'PUMP': {'available': '0', 'locked': '0', 'staked': '0'}, 'SEI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SOL': {'available': '0', 'locked': '0', 'staked': '0'}, 'SUI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SWTCH': {'available': '0', 'locked': '0', 'staked': '0'}, 'USDC': {'available': '0.0000000000835', 'locked': '0', 'staked': '0'}, 'USDT': {'available': '0', 'locked': '0', 'staked': '0'}, 'W': {'available': '0', 'locked': '0', 'staked': '0'}, 'WEN': {'available': '534.6976', 'locked': '0', 'staked': '0'}, 'WIF': {'available': '0', 'locked': '0', 'staked': '0'}, 'XPL': {'available': '0', 'locked': '0', 'staked': '0'}}
+2025-12-03 16:44:06,487 - INFO - Cancelando ordens antigas...
+2025-12-03 16:44:06,844 - INFO - Nenhuma ordem aberta para cancelar
+2025-12-03 16:44:06,845 - INFO - Calculando níveis do grid...
+2025-12-03 16:44:06,845 - INFO - Tipo: GEOMETRIC
+2025-12-03 16:44:06,845 - INFO - Modo: NEUTRAL
+2025-12-03 16:44:06,845 - INFO - Grid geométrico calculado: 10 níveis
+2025-12-03 16:44:06,845 - INFO - ==================================================
+2025-12-03 16:44:06,845 - INFO - RESUMO DO GRID
+2025-12-03 16:44:06,845 - INFO - ==================================================
+2025-12-03 16:44:06,845 - INFO - Total de ordens: 10
+2025-12-03 16:44:06,846 - INFO - Ordens de compra: 5
+2025-12-03 16:44:06,846 - INFO - Ordens de venda: 5
+2025-12-03 16:44:06,846 - INFO - Menor preço de compra: $180.78
+2025-12-03 16:44:06,846 - INFO - Maior preço de compra: $196.0
+2025-12-03 16:44:06,846 - INFO - Menor preço de venda: $204.0
+2025-12-03 16:44:06,846 - INFO - Maior preço de venda: $220.82
+2025-12-03 16:44:06,846 - INFO - ==================================================
+2025-12-03 16:44:06,846 - INFO - Grid calculado com 10 níveis
+2025-12-03 16:44:06,846 - INFO - Colocando ordens iniciais...
+2025-12-03 16:44:07,203 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:07,203 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:44:07,204 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:09,569 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:09,569 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:44:09,569 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:12,014 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:12,014 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:44:12,017 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:12,017 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:44:12,936 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:12,936 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:44:12,936 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:15,393 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:15,394 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:44:15,394 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:17,852 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:17,852 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:44:17,852 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:17,852 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:44:18,775 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:18,775 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:44:18,775 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:21,142 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:21,142 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:44:21,142 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:24,052 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:24,052 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:44:24,052 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:24,052 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:44:24,923 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:24,923 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:44:24,923 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:44:26,605 - INFO - 
+Bot interrompido pelo usuário
+2025-12-03 16:44:26,605 - INFO - Parando o bot...
+2025-12-03 16:44:26,605 - INFO - Cancelando todas as ordens...
+2025-12-03 16:44:26,966 - INFO - Nenhuma ordem aberta para cancelar
+2025-12-03 16:44:26,967 - INFO - Bot parado com sucesso!
+2025-12-03 16:49:18,206 - INFO - ✅ Chave privada ED25519 carregada com sucesso
+2025-12-03 16:49:18,206 - INFO - ==================================================
+2025-12-03 16:49:18,206 - INFO - BOT DE GRID TRADING - FUTUROS PERPÉTUOS
+2025-12-03 16:49:18,206 - INFO - ==================================================
+2025-12-03 16:49:18,206 - INFO - Testando conexão com a API...
+2025-12-03 16:49:18,590 - INFO - ✅ Conexão com API estabelecida com sucesso!
+2025-12-03 16:49:18,590 - INFO - Saldo disponível: {'BTC': {'available': '0', 'locked': '0', 'staked': '0'}, 'ES': {'available': '2.1695', 'locked': '0', 'staked': '0'}, 'ETH': {'available': '0', 'locked': '0', 'staked': '0'}, 'FRAG': {'available': '3.00918', 'locked': '0', 'staked': '0'}, 'JUP': {'available': '0.016173', 'locked': '0', 'staked': '0'}, 'KMNO': {'available': '0.041346', 'locked': '0', 'staked': '0'}, 'PIPE': {'available': '0', 'locked': '0', 'staked': '0'}, 'POINTS': {'available': '2242.2', 'locked': '0', 'staked': '0'}, 'PRCL': {'available': '0', 'locked': '0', 'staked': '0'}, 'PUMP': {'available': '0', 'locked': '0', 'staked': '0'}, 'SEI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SOL': {'available': '0', 'locked': '0', 'staked': '0'}, 'SUI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SWTCH': {'available': '0', 'locked': '0', 'staked': '0'}, 'USDC': {'available': '0.0000000000835', 'locked': '0', 'staked': '0'}, 'USDT': {'available': '0', 'locked': '0', 'staked': '0'}, 'W': {'available': '0', 'locked': '0', 'staked': '0'}, 'WEN': {'available': '534.6976', 'locked': '0', 'staked': '0'}, 'WIF': {'available': '0', 'locked': '0', 'staked': '0'}, 'XPL': {'available': '0', 'locked': '0', 'staked': '0'}}
+2025-12-03 16:49:18,591 - INFO - Buscando preço atual de SOL_USDC...
+2025-12-03 16:49:19,078 - INFO - ✅ Preço atual: $141.45
+2025-12-03 16:49:19,079 - INFO - Par: SOL_USDC
+2025-12-03 16:49:19,079 - INFO - Preço Atual: $141.45
+2025-12-03 16:49:19,079 - ERROR - Erro fatal: name 'LOWER_PRICE' is not defined
+Traceback (most recent call last):
+  File "/home/fabiane/Downloads/grid_bot_simple (23)/grid_bot_simple/bot.py", line 54, in start
+    logger.info(f"Range: ${LOWER_PRICE} - ${UPPER_PRICE}")
+                           ^^^^^^^^^^^
+NameError: name 'LOWER_PRICE' is not defined. Did you mean: 'BASE_PRICE'?
+2025-12-03 16:49:19,081 - INFO - Parando o bot...
+2025-12-03 16:49:19,081 - INFO - Cancelando todas as ordens...
+2025-12-03 16:49:19,530 - INFO - Nenhuma ordem aberta para cancelar
+2025-12-03 16:49:19,531 - INFO - Bot parado!
+2025-12-03 16:50:38,997 - INFO - ✅ Chave privada ED25519 carregada com sucesso
+2025-12-03 16:50:38,997 - INFO - ==================================================
+2025-12-03 16:50:38,997 - INFO - BOT DE GRID TRADING - FUTUROS PERPÉTUOS
+2025-12-03 16:50:38,997 - INFO - ==================================================
+2025-12-03 16:50:38,997 - INFO - Testando conexão com a API...
+2025-12-03 16:50:39,393 - INFO - ✅ Conexão com API estabelecida com sucesso!
+2025-12-03 16:50:39,394 - INFO - Saldo disponível: {'BTC': {'available': '0', 'locked': '0', 'staked': '0'}, 'ES': {'available': '2.1695', 'locked': '0', 'staked': '0'}, 'ETH': {'available': '0', 'locked': '0', 'staked': '0'}, 'FRAG': {'available': '3.00918', 'locked': '0', 'staked': '0'}, 'JUP': {'available': '0.016173', 'locked': '0', 'staked': '0'}, 'KMNO': {'available': '0.041346', 'locked': '0', 'staked': '0'}, 'PIPE': {'available': '0', 'locked': '0', 'staked': '0'}, 'POINTS': {'available': '2242.2', 'locked': '0', 'staked': '0'}, 'PRCL': {'available': '0', 'locked': '0', 'staked': '0'}, 'PUMP': {'available': '0', 'locked': '0', 'staked': '0'}, 'SEI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SOL': {'available': '0', 'locked': '0', 'staked': '0'}, 'SUI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SWTCH': {'available': '0', 'locked': '0', 'staked': '0'}, 'USDC': {'available': '0.0000000000835', 'locked': '0', 'staked': '0'}, 'USDT': {'available': '0', 'locked': '0', 'staked': '0'}, 'W': {'available': '0', 'locked': '0', 'staked': '0'}, 'WEN': {'available': '534.6976', 'locked': '0', 'staked': '0'}, 'WIF': {'available': '0', 'locked': '0', 'staked': '0'}, 'XPL': {'available': '0', 'locked': '0', 'staked': '0'}}
+2025-12-03 16:50:39,394 - INFO - Buscando preço atual de SOL_USDC_PERP...
+2025-12-03 16:50:39,867 - INFO - ✅ Preço atual: $141.48
+2025-12-03 16:50:39,868 - INFO - Par: SOL_USDC_PERP
+2025-12-03 16:50:39,868 - INFO - Preço Atual: $141.48
+2025-12-03 16:50:39,868 - INFO - Range: $170 - $200
+2025-12-03 16:50:39,868 - INFO - Níveis: 100
+2025-12-03 16:50:39,868 - INFO - Quantidade/Grid: 0.07
+2025-12-03 16:50:39,868 - INFO - ==================================================
+2025-12-03 16:50:39,868 - ERROR - Erro fatal: GridStrategy.__init__() got an unexpected keyword argument 'lower_price'
+Traceback (most recent call last):
+  File "/home/fabiane/Downloads/grid_bot_simple (23)/grid_bot_simple/bot.py", line 60, in start
+    self.grid = GridStrategy(
+                ^^^^^^^^^^^^^
+TypeError: GridStrategy.__init__() got an unexpected keyword argument 'lower_price'
+2025-12-03 16:50:39,869 - INFO - Parando o bot...
+2025-12-03 16:50:39,869 - INFO - Cancelando todas as ordens...
+2025-12-03 16:50:40,326 - INFO - Nenhuma ordem aberta para cancelar
+2025-12-03 16:50:40,327 - INFO - Bot parado!
+2025-12-03 16:51:33,077 - INFO - ✅ Chave privada ED25519 carregada com sucesso
+2025-12-03 16:51:33,077 - INFO - ==================================================
+2025-12-03 16:51:33,077 - INFO - BOT DE GRID TRADING - FUTUROS PERPÉTUOS
+2025-12-03 16:51:33,078 - INFO - ==================================================
+2025-12-03 16:51:33,078 - INFO - Testando conexão com a API...
+2025-12-03 16:51:33,454 - INFO - ✅ Conexão com API estabelecida com sucesso!
+2025-12-03 16:51:33,455 - INFO - Saldo disponível: {'BTC': {'available': '0', 'locked': '0', 'staked': '0'}, 'ES': {'available': '2.1695', 'locked': '0', 'staked': '0'}, 'ETH': {'available': '0', 'locked': '0', 'staked': '0'}, 'FRAG': {'available': '3.00918', 'locked': '0', 'staked': '0'}, 'JUP': {'available': '0.016173', 'locked': '0', 'staked': '0'}, 'KMNO': {'available': '0.041346', 'locked': '0', 'staked': '0'}, 'PIPE': {'available': '0', 'locked': '0', 'staked': '0'}, 'POINTS': {'available': '2242.2', 'locked': '0', 'staked': '0'}, 'PRCL': {'available': '0', 'locked': '0', 'staked': '0'}, 'PUMP': {'available': '0', 'locked': '0', 'staked': '0'}, 'SEI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SOL': {'available': '0', 'locked': '0', 'staked': '0'}, 'SUI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SWTCH': {'available': '0', 'locked': '0', 'staked': '0'}, 'USDC': {'available': '0.0000000000835', 'locked': '0', 'staked': '0'}, 'USDT': {'available': '0', 'locked': '0', 'staked': '0'}, 'W': {'available': '0', 'locked': '0', 'staked': '0'}, 'WEN': {'available': '534.6976', 'locked': '0', 'staked': '0'}, 'WIF': {'available': '0', 'locked': '0', 'staked': '0'}, 'XPL': {'available': '0', 'locked': '0', 'staked': '0'}}
+2025-12-03 16:51:33,455 - INFO - Buscando preço atual de SOL_USDC_PERP...
+2025-12-03 16:51:33,587 - INFO - ✅ Preço atual: $141.48
+2025-12-03 16:51:33,588 - INFO - Par: SOL_USDC_PERP
+2025-12-03 16:51:33,588 - INFO - Preço Atual: $141.48
+2025-12-03 16:51:33,588 - INFO - Range: $170 - $200
+2025-12-03 16:51:33,588 - INFO - Níveis: 100
+2025-12-03 16:51:33,589 - INFO - Quantidade/Grid: 0.07
+2025-12-03 16:51:33,589 - INFO - ==================================================
+2025-12-03 16:51:33,589 - INFO - Cancelando ordens antigas...
+2025-12-03 16:51:33,951 - INFO - Nenhuma ordem aberta para cancelar
+2025-12-03 16:51:33,952 - INFO - Calculando níveis do grid...
+2025-12-03 16:51:33,952 - INFO - Range: $170 - $200
+2025-12-03 16:51:33,952 - INFO - Níveis: 100
+2025-12-03 16:51:33,953 - INFO - Grid calculado: 100 níveis
+2025-12-03 16:51:33,953 - INFO - ==================================================
+2025-12-03 16:51:33,953 - INFO - RESUMO DO GRID
+2025-12-03 16:51:33,953 - INFO - ==================================================
+2025-12-03 16:51:33,953 - INFO - Total de ordens: 100
+2025-12-03 16:51:33,953 - INFO - Ordens de compra: 50
+2025-12-03 16:51:33,953 - INFO - Ordens de venda: 50
+2025-12-03 16:51:33,953 - INFO - Menor preço de compra: $170.0
+2025-12-03 16:51:33,953 - INFO - Maior preço de compra: $184.7
+2025-12-03 16:51:33,953 - INFO - Menor preço de venda: $185.3
+2025-12-03 16:51:33,954 - INFO - Maior preço de venda: $200.0
+2025-12-03 16:51:33,954 - INFO - Capital necessário (USDC): $620.73
+2025-12-03 16:51:33,954 - INFO - Quantidade necessária (ativo): 3.5
+2025-12-03 16:51:33,954 - INFO - ==================================================
+2025-12-03 16:51:33,954 - INFO - Colocando ordens do grid...
+2025-12-03 16:51:34,306 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $170.0
+2025-12-03 16:51:34,774 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $170.3
+2025-12-03 16:51:35,313 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $170.6
+2025-12-03 16:51:35,929 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $170.9
+2025-12-03 16:51:36,440 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $171.2
+2025-12-03 16:51:36,902 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $171.5
+2025-12-03 16:51:37,357 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $171.8
+2025-12-03 16:51:37,823 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $172.1
+2025-12-03 16:51:38,286 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $172.4
+2025-12-03 16:51:38,742 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $172.7
+2025-12-03 16:51:39,225 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $173.0
+2025-12-03 16:51:39,721 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $173.3
+2025-12-03 16:51:40,213 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $173.6
+2025-12-03 16:51:40,673 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $173.9
+2025-12-03 16:51:41,135 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $174.2
+2025-12-03 16:51:41,593 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $174.5
+2025-12-03 16:51:42,176 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $174.8
+2025-12-03 16:51:42,626 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $175.1
+2025-12-03 16:51:43,093 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $175.4
+2025-12-03 16:51:43,561 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $175.7
+2025-12-03 16:51:44,119 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $176.0
+2025-12-03 16:51:44,580 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $176.3
+2025-12-03 16:51:45,054 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $176.6
+2025-12-03 16:51:45,534 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:45,534 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:51:45,534 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:47,911 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:47,911 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:51:47,912 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:50,368 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:50,368 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:51:50,368 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:50,368 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:51:50,979 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:50,979 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:51:50,979 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:53,342 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:53,343 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:51:53,343 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:55,706 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:55,706 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:51:55,706 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:55,707 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:51:56,171 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:56,171 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:51:56,171 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:58,557 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:51:58,557 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:51:58,557 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:00,941 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:00,941 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:52:00,942 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:00,942 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:52:01,403 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:01,403 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:52:01,403 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:03,763 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:03,763 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:52:03,763 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:06,134 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:06,134 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:52:06,134 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:06,135 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:52:06,596 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:06,596 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:52:06,596 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:09,002 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:09,002 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:52:09,002 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:11,369 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:11,369 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:52:11,369 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:11,369 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:52:11,870 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:11,871 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:52:11,871 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:52:12,790 - INFO - 
+Bot interrompido pelo usuário
+2025-12-03 16:52:12,790 - INFO - Parando o bot...
+2025-12-03 16:52:12,790 - INFO - Cancelando todas as ordens...
+2025-12-03 16:52:13,303 - INFO - Nenhuma ordem aberta para cancelar
+2025-12-03 16:52:13,304 - INFO - Bot parado!
+2025-12-03 16:54:07,914 - INFO - ✅ Chave privada ED25519 carregada com sucesso
+2025-12-03 16:54:07,914 - INFO - ==================================================
+2025-12-03 16:54:07,914 - INFO - BOT DE GRID TRADING - FUTUROS PERPÉTUOS
+2025-12-03 16:54:07,914 - INFO - ==================================================
+2025-12-03 16:54:07,914 - INFO - Testando conexão com a API...
+2025-12-03 16:54:08,417 - INFO - ✅ Conexão com API estabelecida com sucesso!
+2025-12-03 16:54:08,418 - INFO - Saldo disponível: {'BTC': {'available': '0', 'locked': '0', 'staked': '0'}, 'ES': {'available': '2.1695', 'locked': '0', 'staked': '0'}, 'ETH': {'available': '0', 'locked': '0', 'staked': '0'}, 'FRAG': {'available': '3.00918', 'locked': '0', 'staked': '0'}, 'JUP': {'available': '0.016173', 'locked': '0', 'staked': '0'}, 'KMNO': {'available': '0.041346', 'locked': '0', 'staked': '0'}, 'PIPE': {'available': '0', 'locked': '0', 'staked': '0'}, 'POINTS': {'available': '2242.2', 'locked': '0', 'staked': '0'}, 'PRCL': {'available': '0', 'locked': '0', 'staked': '0'}, 'PUMP': {'available': '0', 'locked': '0', 'staked': '0'}, 'SEI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SOL': {'available': '0', 'locked': '0', 'staked': '0'}, 'SUI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SWTCH': {'available': '0', 'locked': '0', 'staked': '0'}, 'USDC': {'available': '0.0000000000835', 'locked': '0', 'staked': '0'}, 'USDT': {'available': '0', 'locked': '0', 'staked': '0'}, 'W': {'available': '0', 'locked': '0', 'staked': '0'}, 'WEN': {'available': '534.6976', 'locked': '0', 'staked': '0'}, 'WIF': {'available': '0', 'locked': '0', 'staked': '0'}, 'XPL': {'available': '0', 'locked': '0', 'staked': '0'}}
+2025-12-03 16:54:08,418 - INFO - Buscando preço atual de SOL_USDC_PERP...
+2025-12-03 16:54:08,926 - INFO - ✅ Preço atual: $141.39
+2025-12-03 16:54:08,927 - INFO - Par: SOL_USDC_PERP
+2025-12-03 16:54:08,927 - INFO - Preço Atual: $141.39
+2025-12-03 16:54:08,927 - INFO - Range: $100 - $200
+2025-12-03 16:54:08,927 - INFO - Níveis: 100
+2025-12-03 16:54:08,927 - INFO - Quantidade/Grid: 0.07
+2025-12-03 16:54:08,927 - INFO - ==================================================
+2025-12-03 16:54:08,927 - INFO - Cancelando ordens antigas...
+2025-12-03 16:54:09,325 - INFO - Nenhuma ordem aberta para cancelar
+2025-12-03 16:54:09,325 - INFO - Calculando níveis do grid...
+2025-12-03 16:54:09,325 - INFO - Range: $100 - $200
+2025-12-03 16:54:09,326 - INFO - Níveis: 100
+2025-12-03 16:54:09,326 - INFO - Grid calculado: 100 níveis
+2025-12-03 16:54:09,326 - INFO - ==================================================
+2025-12-03 16:54:09,326 - INFO - RESUMO DO GRID
+2025-12-03 16:54:09,326 - INFO - ==================================================
+2025-12-03 16:54:09,326 - INFO - Total de ordens: 100
+2025-12-03 16:54:09,326 - INFO - Ordens de compra: 50
+2025-12-03 16:54:09,326 - INFO - Ordens de venda: 50
+2025-12-03 16:54:09,326 - INFO - Menor preço de compra: $100.0
+2025-12-03 16:54:09,326 - INFO - Maior preço de compra: $149.0
+2025-12-03 16:54:09,326 - INFO - Menor preço de venda: $151.0
+2025-12-03 16:54:09,326 - INFO - Maior preço de venda: $200.0
+2025-12-03 16:54:09,326 - INFO - Capital necessário (USDC): $435.75
+2025-12-03 16:54:09,326 - INFO - Quantidade necessária (ativo): 3.5
+2025-12-03 16:54:09,326 - INFO - ==================================================
+2025-12-03 16:54:09,326 - INFO - Colocando ordens do grid...
+2025-12-03 16:54:09,735 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:54:09,735 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:54:09,735 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:54:12,092 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:54:12,093 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:54:12,093 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:54:14,547 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:54:14,548 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:54:14,548 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:54:14,548 - ERROR - Falha ao colocar ordem após 3 tentativas
+2025-12-03 16:54:15,021 - ERROR - Erro na requisição: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:54:15,021 - ERROR - Resposta: {"code":"INVALID_CLIENT_REQUEST","message":"Price is too far from the last active price"}
+2025-12-03 16:54:15,021 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://api.backpack.exchange/api/v1/order
+2025-12-03 16:54:15,379 - INFO - 
+Bot interrompido pelo usuário
+2025-12-03 16:54:15,379 - INFO - Parando o bot...
+2025-12-03 16:54:15,379 - INFO - Cancelando todas as ordens...
+2025-12-03 16:54:15,732 - INFO - Nenhuma ordem aberta para cancelar
+2025-12-03 16:54:15,733 - INFO - Bot parado!
+2025-12-03 16:55:24,848 - INFO - ✅ Chave privada ED25519 carregada com sucesso
+2025-12-03 16:55:24,849 - INFO - ==================================================
+2025-12-03 16:55:24,849 - INFO - BOT DE GRID TRADING - FUTUROS PERPÉTUOS
+2025-12-03 16:55:24,849 - INFO - ==================================================
+2025-12-03 16:55:24,849 - INFO - Testando conexão com a API...
+2025-12-03 16:55:25,242 - INFO - ✅ Conexão com API estabelecida com sucesso!
+2025-12-03 16:55:25,242 - INFO - Saldo disponível: {'BTC': {'available': '0', 'locked': '0', 'staked': '0'}, 'ES': {'available': '2.1695', 'locked': '0', 'staked': '0'}, 'ETH': {'available': '0', 'locked': '0', 'staked': '0'}, 'FRAG': {'available': '3.00918', 'locked': '0', 'staked': '0'}, 'JUP': {'available': '0.016173', 'locked': '0', 'staked': '0'}, 'KMNO': {'available': '0.041346', 'locked': '0', 'staked': '0'}, 'PIPE': {'available': '0', 'locked': '0', 'staked': '0'}, 'POINTS': {'available': '2242.2', 'locked': '0', 'staked': '0'}, 'PRCL': {'available': '0', 'locked': '0', 'staked': '0'}, 'PUMP': {'available': '0', 'locked': '0', 'staked': '0'}, 'SEI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SOL': {'available': '0', 'locked': '0', 'staked': '0'}, 'SUI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SWTCH': {'available': '0', 'locked': '0', 'staked': '0'}, 'USDC': {'available': '0.0000000000835', 'locked': '0', 'staked': '0'}, 'USDT': {'available': '0', 'locked': '0', 'staked': '0'}, 'W': {'available': '0', 'locked': '0', 'staked': '0'}, 'WEN': {'available': '534.6976', 'locked': '0', 'staked': '0'}, 'WIF': {'available': '0', 'locked': '0', 'staked': '0'}, 'XPL': {'available': '0', 'locked': '0', 'staked': '0'}}
+2025-12-03 16:55:25,243 - INFO - Buscando preço atual de SOL_USDC_PERP...
+2025-12-03 16:55:25,721 - INFO - ✅ Preço atual: $141.35
+2025-12-03 16:55:25,722 - INFO - Par: SOL_USDC_PERP
+2025-12-03 16:55:25,722 - INFO - Preço Atual: $141.35
+2025-12-03 16:55:25,722 - INFO - Range Calculado: $127.22 - $155.49 (10%)
+2025-12-03 16:55:25,722 - INFO - Níveis: 100
+2025-12-03 16:55:25,722 - INFO - Quantidade/Grid: 0.07
+2025-12-03 16:55:25,722 - INFO - ==================================================
+2025-12-03 16:55:25,722 - INFO - Cancelando ordens antigas...
+2025-12-03 16:55:26,133 - INFO - Nenhuma ordem aberta para cancelar
+2025-12-03 16:55:26,134 - INFO - Calculando níveis do grid...
+2025-12-03 16:55:26,134 - INFO - Range: $127.215 - $155.485
+2025-12-03 16:55:26,134 - INFO - Níveis: 100
+2025-12-03 16:55:26,134 - INFO - Grid calculado: 101 níveis
+2025-12-03 16:55:26,134 - INFO - ==================================================
+2025-12-03 16:55:26,134 - INFO - RESUMO DO GRID
+2025-12-03 16:55:26,134 - INFO - ==================================================
+2025-12-03 16:55:26,134 - INFO - Total de ordens: 101
+2025-12-03 16:55:26,134 - INFO - Ordens de compra: 51
+2025-12-03 16:55:26,134 - INFO - Ordens de venda: 50
+2025-12-03 16:55:26,134 - INFO - Menor preço de compra: $127.22
+2025-12-03 16:55:26,134 - INFO - Maior preço de compra: $141.35
+2025-12-03 16:55:26,134 - INFO - Menor preço de venda: $141.63
+2025-12-03 16:55:26,134 - INFO - Maior preço de venda: $155.49
+2025-12-03 16:55:26,134 - INFO - Capital necessário (USDC): $479.39
+2025-12-03 16:55:26,134 - INFO - Quantidade necessária (ativo): 3.5
+2025-12-03 16:55:26,134 - INFO - ==================================================
+2025-12-03 16:55:26,134 - INFO - Colocando ordens do grid...
+2025-12-03 16:55:26,538 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $127.22
+2025-12-03 16:55:27,008 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $127.5
+2025-12-03 16:55:27,472 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $127.78
+2025-12-03 16:55:27,970 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $128.06
+2025-12-03 16:55:28,449 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $128.35
+2025-12-03 16:55:28,918 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $128.63
+2025-12-03 16:55:29,380 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $128.91
+2025-12-03 16:55:29,922 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $129.19
+2025-12-03 16:55:30,385 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $129.48
+2025-12-03 16:55:30,852 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $129.76
+2025-12-03 16:55:31,335 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $130.04
+2025-12-03 16:55:31,796 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $130.32
+2025-12-03 16:55:32,274 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $130.61
+2025-12-03 16:55:32,728 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $130.89
+2025-12-03 16:55:33,213 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $131.17
+2025-12-03 16:55:33,677 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $131.46
+2025-12-03 16:55:34,150 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $131.74
+2025-12-03 16:55:34,730 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $132.02
+2025-12-03 16:55:35,208 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $132.3
+2025-12-03 16:55:35,663 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $132.59
+2025-12-03 16:55:36,157 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $132.87
+2025-12-03 16:55:36,675 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $133.15
+2025-12-03 16:55:37,186 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $133.43
+2025-12-03 16:55:37,651 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $133.72
+2025-12-03 16:55:38,120 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $134.0
+2025-12-03 16:55:38,587 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $134.28
+2025-12-03 16:55:39,058 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $134.57
+2025-12-03 16:55:39,507 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $134.85
+2025-12-03 16:55:39,967 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $135.13
+2025-12-03 16:55:40,418 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $135.41
+2025-12-03 16:55:40,903 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $135.7
+2025-12-03 16:55:41,387 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $135.98
+2025-12-03 16:55:41,896 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $136.26
+2025-12-03 16:55:42,386 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $136.54
+2025-12-03 16:55:42,920 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $136.83
+2025-12-03 16:55:43,379 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $137.11
+2025-12-03 16:55:43,942 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $137.39
+2025-12-03 16:55:44,405 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $137.67
+2025-12-03 16:55:44,874 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $137.96
+2025-12-03 16:55:45,332 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $138.24
+2025-12-03 16:55:45,790 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $138.52
+2025-12-03 16:55:46,279 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $138.81
+2025-12-03 16:55:46,738 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $139.09
+2025-12-03 16:55:47,190 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $139.37
+2025-12-03 16:55:47,649 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $139.65
+2025-12-03 16:55:48,106 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $139.94
+2025-12-03 16:55:48,655 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $140.22
+2025-12-03 16:55:49,120 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $140.5
+2025-12-03 16:55:49,576 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $140.78
+2025-12-03 16:55:50,054 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $141.07
+2025-12-03 16:55:51,041 - INFO - ✓ Ordem de COMPRA colocada: 0.07 @ $141.35
+2025-12-03 16:55:51,504 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $141.63
+2025-12-03 16:55:52,035 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $141.92
+2025-12-03 16:55:52,508 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $142.2
+2025-12-03 16:55:53,061 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $142.48
+2025-12-03 16:55:53,673 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $142.76
+2025-12-03 16:55:54,132 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $143.05
+2025-12-03 16:55:54,697 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $143.33
+2025-12-03 16:55:55,159 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $143.61
+2025-12-03 16:55:55,637 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $143.89
+2025-12-03 16:55:56,092 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $144.18
+2025-12-03 16:55:56,643 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $144.46
+2025-12-03 16:55:57,102 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $144.74
+2025-12-03 16:55:57,667 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $145.03
+2025-12-03 16:55:58,125 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $145.31
+2025-12-03 16:55:58,691 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $145.59
+2025-12-03 16:55:59,159 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $145.87
+2025-12-03 16:55:59,634 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $146.16
+2025-12-03 16:56:00,125 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $146.44
+2025-12-03 16:56:00,840 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $146.72
+2025-12-03 16:56:01,292 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $147.0
+2025-12-03 16:56:01,870 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $147.29
+2025-12-03 16:56:02,376 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $147.57
+2025-12-03 16:56:02,889 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $147.85
+2025-12-03 16:56:03,378 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $148.13
+2025-12-03 16:56:03,862 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $148.42
+2025-12-03 16:56:04,425 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $148.7
+2025-12-03 16:56:05,071 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $148.98
+2025-12-03 16:56:05,698 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $149.27
+2025-12-03 16:56:06,279 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $149.55
+2025-12-03 16:56:06,854 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $149.83
+2025-12-03 16:56:07,314 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $150.11
+2025-12-03 16:56:07,773 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $150.4
+2025-12-03 16:56:08,765 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $150.68
+2025-12-03 16:56:09,237 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $150.96
+2025-12-03 16:56:09,692 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $151.24
+2025-12-03 16:56:10,147 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $151.53
+2025-12-03 16:56:10,671 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $151.81
+2025-12-03 16:56:11,183 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $152.09
+2025-12-03 16:56:11,695 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $152.38
+2025-12-03 16:56:12,208 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $152.66
+2025-12-03 16:56:12,688 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $152.94
+2025-12-03 16:56:13,231 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $153.22
+2025-12-03 16:56:13,690 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $153.51
+2025-12-03 16:56:14,166 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $153.79
+2025-12-03 16:56:14,669 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $154.07
+2025-12-03 16:56:15,279 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $154.35
+2025-12-03 16:56:15,737 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $154.64
+2025-12-03 16:56:16,303 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $154.92
+2025-12-03 16:56:16,818 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $155.2
+2025-12-03 16:56:17,273 - INFO - ✓ Ordem de VENDA colocada: 0.07 @ $155.49
+2025-12-03 16:56:17,374 - INFO - ==================================================
+2025-12-03 16:56:17,374 - INFO - ✅ Ordens colocadas: 101
+2025-12-03 16:56:17,374 - INFO - ❌ Ordens falhadas: 0
+2025-12-03 16:56:17,374 - INFO - ==================================================
+2025-12-03 16:56:17,374 - INFO - Entrando no loop de monitoramento...
+2025-12-03 16:56:18,062 - INFO - 📊 Ordens abertas: 100
+2025-12-03 16:56:48,728 - INFO - 📊 Ordens abertas: 100
+2025-12-03 16:57:19,138 - INFO - 📊 Ordens abertas: 100
+2025-12-03 16:57:50,032 - INFO - 📊 Ordens abertas: 100
+2025-12-03 16:58:20,539 - INFO - 📊 Ordens abertas: 100
+2025-12-03 16:58:51,548 - INFO - 📊 Ordens abertas: 100
+2025-12-03 16:59:22,960 - INFO - 📊 Ordens abertas: 100
+2025-12-03 16:59:53,896 - INFO - 📊 Ordens abertas: 100
+2025-12-03 17:00:24,837 - INFO - 📊 Ordens abertas: 100
+2025-12-03 17:00:55,750 - INFO - 📊 Ordens abertas: 100
+2025-12-03 17:01:17,121 - INFO - 
+Bot interrompido pelo usuário
+2025-12-03 17:01:17,121 - INFO - Parando o bot...
+2025-12-03 17:01:17,121 - INFO - Cancelando todas as ordens...
+2025-12-03 17:01:18,494 - INFO - Ordem 22749775266 cancelada
+2025-12-03 17:01:19,108 - INFO - Ordem 22749776015 cancelada
+2025-12-03 17:01:19,726 - INFO - Ordem 22749776772 cancelada
+2025-12-03 17:01:20,288 - INFO - Ordem 22749777394 cancelada
+2025-12-03 17:01:20,857 - INFO - Ordem 22749777983 cancelada
+2025-12-03 17:01:21,465 - INFO - Ordem 22749778621 cancelada
+2025-12-03 17:01:22,078 - INFO - Ordem 22749779076 cancelada
+2025-12-03 17:01:22,692 - INFO - Ordem 22749779577 cancelada
+2025-12-03 17:01:23,267 - INFO - Ordem 22749780226 cancelada
+2025-12-03 17:01:23,857 - INFO - Ordem 22749781078 cancelada
+2025-12-03 17:01:24,431 - INFO - Ordem 22749782197 cancelada
+2025-12-03 17:01:25,046 - INFO - Ordem 22749782983 cancelada
+2025-12-03 17:01:25,660 - INFO - Ordem 22749785332 cancelada
+2025-12-03 17:01:26,276 - INFO - Ordem 22749787254 cancelada
+2025-12-03 17:01:26,890 - INFO - Ordem 22749788553 cancelada
+2025-12-03 17:01:27,476 - INFO - Ordem 22749789967 cancelada
+2025-12-03 17:01:28,049 - INFO - Ordem 22749790890 cancelada
+2025-12-03 17:01:28,616 - INFO - Ordem 22749791505 cancelada
+2025-12-03 17:01:29,244 - INFO - Ordem 22749792136 cancelada
+2025-12-03 17:01:29,803 - INFO - Ordem 22749792518 cancelada
+2025-12-03 17:01:30,367 - INFO - Ordem 22749793130 cancelada
+2025-12-03 17:01:30,986 - INFO - Ordem 22749793826 cancelada
+2025-12-03 17:01:31,564 - INFO - Ordem 22749794432 cancelada
+2025-12-03 17:01:32,127 - INFO - Ordem 22749795137 cancelada
+2025-12-03 17:01:32,726 - INFO - Ordem 22749795751 cancelada
+2025-12-03 17:01:33,293 - INFO - Ordem 22749796427 cancelada
+2025-12-03 17:01:33,842 - INFO - Ordem 22749797372 cancelada
+2025-12-03 17:01:34,467 - INFO - Ordem 22749798678 cancelada
+2025-12-03 17:01:35,030 - INFO - Ordem 22749799220 cancelada
+2025-12-03 17:01:35,696 - INFO - Ordem 22749799783 cancelada
+2025-12-03 17:01:36,272 - INFO - Ordem 22749800458 cancelada
+2025-12-03 17:01:36,826 - INFO - Ordem 22749800998 cancelada
+2025-12-03 17:01:37,437 - INFO - Ordem 22749801366 cancelada
+2025-12-03 17:01:38,021 - INFO - Ordem 22749801732 cancelada
+2025-12-03 17:01:38,594 - INFO - Ordem 22749802130 cancelada
+2025-12-03 17:01:39,689 - INFO - Ordem 22749802531 cancelada
+2025-12-03 17:01:40,238 - INFO - Ordem 22749803143 cancelada
+2025-12-03 17:01:40,918 - INFO - Ordem 22749804848 cancelada
+2025-12-03 17:01:41,478 - INFO - Ordem 22749805647 cancelada
+2025-12-03 17:01:42,044 - INFO - Ordem 22749806170 cancelada
+2025-12-03 17:01:42,601 - INFO - Ordem 22749806617 cancelada
+2025-12-03 17:01:43,236 - INFO - Ordem 22749807336 cancelada
+2025-12-03 17:01:43,889 - INFO - Ordem 22749807906 cancelada
+2025-12-03 17:01:44,452 - INFO - Ordem 22749808340 cancelada
+2025-12-03 17:01:45,014 - INFO - Ordem 22749808767 cancelada
+2025-12-03 17:01:45,629 - INFO - Ordem 22749809137 cancelada
+2025-12-03 17:01:46,203 - INFO - Ordem 22749809741 cancelada
+2025-12-03 17:01:46,768 - INFO - Ordem 22749812198 cancelada
+2025-12-03 17:01:47,330 - INFO - Ordem 22749812784 cancelada
+2025-12-03 17:01:47,890 - INFO - Ordem 22749813841 cancelada
+2025-12-03 17:01:48,471 - INFO - Ordem 22749816192 cancelada
+2025-12-03 17:01:49,111 - INFO - Ordem 22749816874 cancelada
+2025-12-03 17:01:49,725 - INFO - Ordem 22749817568 cancelada
+2025-12-03 17:01:50,304 - INFO - Ordem 22749818248 cancelada
+2025-12-03 17:01:50,866 - INFO - Ordem 22749818844 cancelada
+2025-12-03 17:01:51,569 - INFO - Ordem 22749819340 cancelada
+2025-12-03 17:01:52,130 - INFO - Ordem 22749819987 cancelada
+2025-12-03 17:01:52,686 - INFO - Ordem 22749820447 cancelada
+2025-12-03 17:01:53,268 - INFO - Ordem 22749820862 cancelada
+2025-12-03 17:01:53,927 - INFO - Ordem 22749821271 cancelada
+2025-12-03 17:01:54,485 - INFO - Ordem 22749821919 cancelada
+2025-12-03 17:01:55,050 - INFO - Ordem 22749822343 cancelada
+2025-12-03 17:01:55,664 - INFO - Ordem 22749822799 cancelada
+2025-12-03 17:01:56,278 - INFO - Ordem 22749823223 cancelada
+2025-12-03 17:01:56,893 - INFO - Ordem 22749824052 cancelada
+2025-12-03 17:01:57,457 - INFO - Ordem 22749824490 cancelada
+2025-12-03 17:01:58,126 - INFO - Ordem 22749824945 cancelada
+2025-12-03 17:01:58,682 - INFO - Ordem 22749825341 cancelada
+2025-12-03 17:01:59,237 - INFO - Ordem 22749825971 cancelada
+2025-12-03 17:01:59,865 - INFO - Ordem 22749827156 cancelada
+2025-12-03 17:02:00,477 - INFO - Ordem 22749827614 cancelada
+2025-12-03 17:02:01,128 - INFO - Ordem 22749829168 cancelada
+2025-12-03 17:02:01,690 - INFO - Ordem 22749829813 cancelada
+2025-12-03 17:02:02,253 - INFO - Ordem 22749831252 cancelada
+2025-12-03 17:02:02,812 - INFO - Ordem 22749833815 cancelada
+2025-12-03 17:02:03,404 - INFO - Ordem 22749834469 cancelada
+2025-12-03 17:02:03,968 - INFO - Ordem 22749835520 cancelada
+2025-12-03 17:02:05,059 - INFO - Ordem 22749836610 cancelada
+2025-12-03 17:02:05,614 - INFO - Ordem 22749837119 cancelada
+2025-12-03 17:02:06,172 - INFO - Ordem 22749837652 cancelada
+2025-12-03 17:02:06,728 - INFO - Ordem 22749838193 cancelada
+2025-12-03 17:02:07,293 - INFO - Ordem 22749838747 cancelada
+2025-12-03 17:02:07,873 - INFO - Ordem 22749839559 cancelada
+2025-12-03 17:02:08,482 - INFO - Ordem 22749840188 cancelada
+2025-12-03 17:02:09,047 - INFO - Ordem 22749840650 cancelada
+2025-12-03 17:02:09,694 - INFO - Ordem 22749841020 cancelada
+2025-12-03 17:02:10,310 - INFO - Ordem 22749841536 cancelada
+2025-12-03 17:02:10,922 - INFO - Ordem 22749841820 cancelada
+2025-12-03 17:02:11,539 - INFO - Ordem 22749842282 cancelada
+2025-12-03 17:02:12,118 - INFO - Ordem 22749842848 cancelada
+2025-12-03 17:02:12,691 - INFO - Ordem 22749843505 cancelada
+2025-12-03 17:02:13,269 - INFO - Ordem 22749843998 cancelada
+2025-12-03 17:02:13,834 - INFO - Ordem 22749844331 cancelada
+2025-12-03 17:02:14,506 - INFO - Ordem 22749844721 cancelada
+2025-12-03 17:02:15,120 - INFO - Ordem 22749844990 cancelada
+2025-12-03 17:02:15,693 - INFO - Ordem 22749845311 cancelada
+2025-12-03 17:02:16,286 - INFO - Ordem 22749845735 cancelada
+2025-12-03 17:02:16,850 - INFO - Ordem 22749846140 cancelada
+2025-12-03 17:02:17,476 - INFO - Ordem 22749846476 cancelada
+2025-12-03 17:02:18,068 - INFO - Ordem 22749846978 cancelada
+2025-12-03 17:02:18,268 - INFO - Total de 100 ordens canceladas
+2025-12-03 17:02:18,269 - INFO - Bot parado!
+2025-12-03 17:03:38,845 - INFO - ✅ Chave privada ED25519 carregada com sucesso
+2025-12-03 17:03:38,845 - INFO - ==================================================
+2025-12-03 17:03:38,845 - INFO - BOT DE GRID TRADING - FUTUROS PERPÉTUOS
+2025-12-03 17:03:38,845 - INFO - ==================================================
+2025-12-03 17:03:38,845 - INFO - Testando conexão com a API...
+2025-12-03 17:03:39,211 - INFO - ✅ Conexão com API estabelecida com sucesso!
+2025-12-03 17:03:39,212 - INFO - Saldo disponível: {'BTC': {'available': '0', 'locked': '0', 'staked': '0'}, 'ES': {'available': '2.1695', 'locked': '0', 'staked': '0'}, 'ETH': {'available': '0', 'locked': '0', 'staked': '0'}, 'FRAG': {'available': '3.00918', 'locked': '0', 'staked': '0'}, 'JUP': {'available': '0.016173', 'locked': '0', 'staked': '0'}, 'KMNO': {'available': '0.041346', 'locked': '0', 'staked': '0'}, 'PIPE': {'available': '0', 'locked': '0', 'staked': '0'}, 'POINTS': {'available': '2242.2', 'locked': '0', 'staked': '0'}, 'PRCL': {'available': '0', 'locked': '0', 'staked': '0'}, 'PUMP': {'available': '0', 'locked': '0', 'staked': '0'}, 'SEI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SOL': {'available': '0', 'locked': '0', 'staked': '0'}, 'SUI': {'available': '0', 'locked': '0', 'staked': '0'}, 'SWTCH': {'available': '0', 'locked': '0', 'staked': '0'}, 'USDC': {'available': '0.0000000000835', 'locked': '0', 'staked': '0'}, 'USDT': {'available': '0', 'locked': '0', 'staked': '0'}, 'W': {'available': '0', 'locked': '0', 'staked': '0'}, 'WEN': {'available': '534.6976', 'locked': '0', 'staked': '0'}, 'WIF': {'available': '0', 'locked': '0', 'staked': '0'}, 'XPL': {'available': '0', 'locked': '0', 'staked': '0'}}
+2025-12-03 17:03:39,212 - INFO - Buscando preço atual de BTC_USDC_PERP...
+2025-12-03 17:03:39,706 - INFO - ✅ Preço atual: $93041.7
+2025-12-03 17:03:39,707 - INFO - Par: BTC_USDC_PERP
+2025-12-03 17:03:39,707 - INFO - Preço Atual: $93041.7
+2025-12-03 17:03:39,707 - INFO - Range Calculado: $83737.53 - $102345.87 (10%)
+2025-12-03 17:03:39,707 - INFO - Modo: LONG
+2025-12-03 17:03:39,707 - INFO - Níveis: 20
+2025-12-03 17:03:39,708 - INFO - Quantidade/Grid: 0.0001
+2025-12-03 17:03:39,708 - INFO - ==================================================
+2025-12-03 17:03:39,708 - ERROR - Erro fatal: GridStrategy.__init__() got an unexpected keyword argument 'mode'
+Traceback (most recent call last):
+  File "/home/fabiane/Downloads/grid_bot_simple (23)/grid_bot_simple/bot.py", line 66, in start
+    self.grid = GridStrategy(
+                ^^^^^^^^^^^^^
+TypeError: GridStrategy.__init__() got an unexpected keyword argument 'mode'
+2025-12-03 17:03:39,708 - INFO - Parando o bot...
+2025-12-03 17:03:39,709 - INFO - Cancelando todas as ordens...
+2025-12-03 17:03:40,065 - INFO - Nenhuma ordem aberta para cancelar
+2025-12-03 17:03:40,065 - INFO - Bot parado!
