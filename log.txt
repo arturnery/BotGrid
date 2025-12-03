@@ -1,0 +1,108 @@
+2025-12-03 15:33:46,530 - backpack_api - INFO - ✓ Chaves ED25519 carregadas com sucesso
+2025-12-03 15:33:46,530 - __main__ - INFO - ======================================================================
+2025-12-03 15:33:46,530 - __main__ - INFO - 🤖 GRID TRADING BOT - INICIANDO
+2025-12-03 15:33:46,530 - __main__ - INFO - ======================================================================
+2025-12-03 15:33:46,530 - __main__ - INFO - 🔍 Validando credenciais...
+2025-12-03 15:33:46,530 - __main__ - INFO - Testando conexão com símbolo: BTC_USDT
+2025-12-03 15:33:46,660 - __main__ - INFO - Resposta recebida: {}
+2025-12-03 15:33:46,661 - __main__ - WARNING - ⚠️  Resposta vazia do ticker, mas continuando...
+2025-12-03 15:33:46,661 - __main__ - INFO - 📊 Calculando grid para BTC_USDT...
+2025-12-03 15:33:46,661 - __main__ - INFO -    Modo: NEUTRAL
+2025-12-03 15:33:46,661 - __main__ - INFO -    Tipo: GEOMETRIC
+2025-12-03 15:33:46,661 - __main__ - INFO -    Preço base: 50000
+2025-12-03 15:33:46,661 - __main__ - INFO -    Intervalo: 1000
+2025-12-03 15:33:46,661 - __main__ - INFO -    Níveis: 5
+2025-12-03 15:33:46,661 - __main__ - INFO -    Tamanho da ordem: 0.01
+
+============================================================
+Grid de Trading para BTC_USDT
+============================================================
+Nível    Tipo     Preço           Quantidade     
+------------------------------------------------------------
+5        BUY      45196.04        0.010000       
+4        BUY      46118.41        0.010000       
+3        BUY      47059.60        0.010000       
+2        BUY      48020.00        0.010000       
+1        BUY      49000.00        0.010000       
+6        SELL     51000.00        0.010000       
+7        SELL     52020.00        0.010000       
+8        SELL     53060.40        0.010000       
+9        SELL     54121.61        0.010000       
+10       SELL     55204.04        0.010000       
+============================================================
+
+Resumo:
+  Total de ordens: 10
+  Ordens de compra (BUY): 5
+  Ordens de venda (SELL): 5
+  Preço mínimo: 45196.04
+  Preço máximo: 55204.04
+  Investimento total (aprox): 2353.94
+
+2025-12-03 15:33:46,661 - __main__ - INFO - ✅ Grid calculado com 10 níveis
+2025-12-03 15:33:46,661 - __main__ - INFO - ⏭️  Pulando cancelamento de ordens (desabilitado)
+2025-12-03 15:33:46,661 - __main__ - INFO - 💡 Para cancelar ordens manualmente, acesse: https://backpack.exchange
+2025-12-03 15:33:46,661 - __main__ - INFO - 📝 Criando 10 ordens de grid...
+2025-12-03 15:33:46,661 - backpack_api - INFO - Criando ordem: BUY 0.01 BTC_USDT @ 45196.03984
+2025-12-03 15:33:46,988 - __main__ - INFO -   ✓ Ordem 5: BUY 0.01 @ 45196.03984
+2025-12-03 15:33:47,488 - backpack_api - INFO - Criando ordem: BUY 0.01 BTC_USDT @ 46118.407999999996
+2025-12-03 15:33:47,776 - __main__ - INFO -   ✓ Ordem 4: BUY 0.01 @ 46118.407999999996
+2025-12-03 15:33:48,276 - backpack_api - INFO - Criando ordem: BUY 0.01 BTC_USDT @ 47059.6
+2025-12-03 15:33:48,575 - __main__ - INFO -   ✓ Ordem 3: BUY 0.01 @ 47059.6
+2025-12-03 15:33:49,076 - backpack_api - INFO - Criando ordem: BUY 0.01 BTC_USDT @ 48019.99999999999
+Traceback (most recent call last):
+  File "/home/fabiane/Downloads/grid_bot_simple (23)/grid_bot_simple/bot.py", line 391, in <module>
+    main()
+  File "/home/fabiane/Downloads/grid_bot_simple (23)/grid_bot_simple/bot.py", line 387, in main
+    bot.run()
+  File "/home/fabiane/Downloads/grid_bot_simple (23)/grid_bot_simple/bot.py", line 344, in run
+    if not self.create_grid_orders():
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fabiane/Downloads/grid_bot_simple (23)/grid_bot_simple/bot.py", line 144, in create_grid_orders
+    order = self.api.create_order(
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fabiane/Downloads/grid_bot_simple (23)/grid_bot_simple/backpack_api.py", line 271, in create_order
+    return self._make_request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/fabiane/Downloads/grid_bot_simple (23)/grid_bot_simple/backpack_api.py", line 176, in _make_request
+    response = self.session.post(url, json=request_body, params=request_params, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/usr/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
